@@ -12,7 +12,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CISP is a special compact In-System Programmer for the C2N232 project
-by Marko Mäkelä. CISP transfers data to and from the non-volatile
+by Marko Makela. CISP transfers data to and from the non-volatile
 program or data memory of an Atmel AVR RISC processor over the Serial
 Peripheral Interface (SPI).
 
