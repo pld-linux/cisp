@@ -12,6 +12,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CISP is a special compact In-System Programmer for the C2N232 project
+by Marko Maekelae. CISP transfers data to and from the non-volatile
+program or data memory of an Atmel AVR RISC processor over the Serial
+Peripheral Interface (SPI).
+
+Nevertheless you could use this programmer software together with
+following hardware components:
+ - c2n232 serial (RESET=DTR SCK=RTS MOSI=TXD MISO=CTS)
+ - dasa serial (RESET=RTS SCK=DTR MOSI=TXD MISO=CTS)
+ - ponyprog serial (RESET=TXD SCK=RTS MOSI=DTR MISO=CTS)
+ - dapa parallel (RESET=INIT SCK=STROBE MOSI=D0 MISO=BUSY)
+ - dt006 parallel (RESET=D2 SCK=D3 MOSI=D0 MISO=BUSY)
+ - stk200 Atmel STK200 Evaluation Board (parallel)
+
+%description -l en.UTF-8
+CISP is a special compact In-System Programmer for the C2N232 project
 by Marko Mäkelä. CISP transfers data to and from the non-volatile
 program or data memory of an Atmel AVR RISC processor over the Serial
 Peripheral Interface (SPI).
