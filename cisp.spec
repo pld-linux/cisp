@@ -1,5 +1,5 @@
 Summary:	Compact In-System Programmer
-Summary(pl):	Zwarty zestaw do programowania
+Summary(pl.UTF-8):   Zwarty zestaw do programowania
 Name:		cisp
 Version:	1.0.4
 Release:	0.1
@@ -12,7 +12,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CISP is a special compact In-System Programmer for the C2N232 project
-by Marko Makela. CISP transfers data to and from the non-volatile
+by Marko MÃ¤kelÃ¤. CISP transfers data to and from the non-volatile
 program or data memory of an Atmel AVR RISC processor over the Serial
 Peripheral Interface (SPI).
 
@@ -25,20 +25,20 @@ following hardware components:
  - dt006 parallel (RESET=D2 SCK=D3 MOSI=D0 MISO=BUSY)
  - stk200 Atmel STK200 Evaluation Board (parallel)
 
-%description -l pl
+%description -l pl.UTF-8
 CISP to specjalny zwarty zestaw do programowania dla projektu C2N232
-Marko Mäkelä. CISP przesy³a dane do i z nieulotnej pamiêci programu
+Marko MÃ¤kelÃ¤. CISP przesyÅ‚a dane do i z nieulotnej pamiÄ™ci programu
 lub danych procesora RISC Atmel AVR po interfejsie szeregowym SPI
 (Serial Peripheral Interface).
 
-Tym niemniej mo¿na u¿ywaæ tego oprogramowania wraz z nastêpuj±cym
-sprzêtem:
+Tym niemniej moÅ¼na uÅ¼ywaÄ‡ tego oprogramowania wraz z nastÄ™pujÄ…cym
+sprzÄ™tem:
  - szeregowym c2n232 (RESET=DTR SCK=RTS MOSI=TXD MISO=CTS)
  - szeregowym dasa (RESET=RTS SCK=DTR MOSI=TXD MISO=CTS)
  - szeregowym ponyprog (RESET=TXD SCK=RTS MOSI=DTR MISO=CTS)
- - równoleg³ym dapa (RESET=INIT SCK=STROBE MOSI=D0 MISO=BUSY)
- - równoleg³ym dt006 (RESET=D2 SCK=D3 MOSI=D0 MISO=BUSY)
- - stk200 Atmel STK200 Evaluation Board (równoleg³ym)
+ - rÃ³wnolegÅ‚ym dapa (RESET=INIT SCK=STROBE MOSI=D0 MISO=BUSY)
+ - rÃ³wnolegÅ‚ym dt006 (RESET=D2 SCK=D3 MOSI=D0 MISO=BUSY)
+ - stk200 Atmel STK200 Evaluation Board (rÃ³wnolegÅ‚ym)
 
 %prep
 %setup -q
