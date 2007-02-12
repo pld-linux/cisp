@@ -1,5 +1,5 @@
 Summary:	Compact In-System Programmer
-Summary(pl.UTF-8):   Zwarty zestaw do programowania
+Summary(pl.UTF-8):	Zwarty zestaw do programowania
 Name:		cisp
 Version:	1.0.4
 Release:	0.1
